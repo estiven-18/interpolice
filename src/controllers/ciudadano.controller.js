@@ -35,8 +35,8 @@ export const createCiudadano = async (req, res) => {
     apellidos: req.body.apellidos,
     apodo: req.body.apodo,
     fechaNace: req.body.fechaNace,
-    planetaOrigen: req.body.planetaOrigen,
-    planetaRecidencia: req.body.planetaRecidencia,
+    planetaOrigin: req.body.planetaOrigin,
+    planetaReside: req.body.planetaReside,
     foto: req.body.foto,
     codigoQr: req.body.codigoQr,
     estado: req.body.estado,
@@ -70,8 +70,8 @@ export const updateCiudadano = async (req, res) => {
     apellidos: req.body.apellidos,
     apodo: req.body.apodo,
     fechaNace: req.body.fechaNace,
-    planetaOrigen: req.body.planetaOrigen,
-    planetaRecidencia: req.body.planetaRecidencia,
+    planetaOrigin: req.body.planetaOrigin,
+    planetaReside: req.body.planetaReside,
     foto: req.body.foto,
     codigoQr: req.body.codigoQr,
     estado: req.body.estado,
@@ -85,3 +85,4 @@ export const updateCiudadano = async (req, res) => {
     });
   }
 };
+
